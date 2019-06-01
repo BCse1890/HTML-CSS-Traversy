@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vh & Vw Units</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background: #333 url('https://images.unsplash.com/photo-1514613746154-2160d413afe5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1601&q=80')
+            no-repeat center center/cover;
+            color:rebeccapurplef;
+            height: 100vh;
+            text-align: center;
+            padding: 2rem;
+            padding-top: 10rem;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            color: #fff;
+            margin: 1rem 0;
+
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #f4f4f4;
+            color: #333;
+            padding: 0.75rem 2rem;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        @media(max-height: 450px) {
+            header: {
+                padding-top: 5rem;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Website</h1>
+        <p>Dynamic overview of the Financial World</p>
+        <a href="#" class="btn">Find Out More</a>
+    </header>
+
+    <section>
+        <h3>About Our Company</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Necessitatibus dicta repellat excepturi ad facilis, ipsa
+             beatae inventore, amet nam modi numquam tempore nulla 
+             voluptas? Numquam a in quaerat, cumque perspiciatis nam 
+             reiciendis saepe excepturi ut id illo officiis deserunt 
+             dolores magnam itaque facere suscipit recusandae 
+            inventore debitis asperiores laboriosam provident.</p>
+    </section>
+    
+</body>
+</html>
